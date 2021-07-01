@@ -15,12 +15,21 @@ Write a program that:
 
 ## Formula
 
-From Fahrenheit to Celsius:  
-`tempCelsius = (tempFahrenheit - 32) × 5/9`
+- **Fahrenheit to Celsius:**
 
-From Celsius to Fahrenheit:
+  - `tempCelsius = (tempFahrenheit - 32) * 0.5556`
+  - E.g.:
+    - `(50°F - 32) * .5556 = 10°C`
 
-`tempCelsius = (tempFahrenheit - 32) / (9/5)`
+- **Celsius to Fahrenheit:**
+
+  - `tempFahrenheit = (tempClesius * 1.8) + 32`
+  - E.g.:
+    - `(30°C * 1.8) + 32 = 86°F`
+
+- So test your solution f.i. with
+  - 50°F == 10°C
+  - 30°C == 86°F
 
 ## Resources
 
